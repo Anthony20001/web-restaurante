@@ -1,0 +1,131 @@
+footer{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+footer .row1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+}
+
+/*****************************************/
+
+footer .row1 .col1 img{
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+}
+
+.col1 h4{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/*****************************************/
+
+footer .row1 .col2 h3{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+footer .row1 .col2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.col2 button{
+    background-color: transparent;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    border: none;
+    letter-spacing: 1.5px;
+}
+
+
+/****************************************/
+footer .row2{
+    background-color: black;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .row2 a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer .row2 a:hover{
+    color: whitesmoke;
+}
+
+.Acerca{
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(110, 110, 110);
+    text-align: justify;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+}
+
+.Acerca span{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-left: 32%;
+}
+
+.Acerca h2{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 370px){
+
+    footer .row1 .col1 img{
+        width: 70px;
+        height: 70px;
+    }
+
+    footer button{
+        font-size: 11px;
+    }
+
+    footer .row1 .col2 img{
+        width: 20px;
+        height: 20px;
+    }
+
+    footer .row1 .col2 h3{
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+    .col1 h4{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    footer .row2{
+        display: block;
+        text-align: center;
+    }
+footer .row2 a{
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: block;
+    justify-content: space-between;
+}
+    
+}

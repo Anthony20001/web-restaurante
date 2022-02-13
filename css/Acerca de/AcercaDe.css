@@ -1,0 +1,45 @@
+.acercaDe{
+    margin: 10%;
+    width: 40%;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.acercaDe span{
+    color: slateblue;
+    font-weight: 600;
+    font-size: 30px;
+}
+.acercaDe h2{
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    color: rgb(107, 106, 106);
+    font-weight: 500;
+}
+
+.fondo-img-acerca{
+    filter: none;
+    box-sizing: border-box;
+}
+
+.container-fondo-acerca{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 3.7%;
+}
+
+.fondo-img-acerca img{
+    background-size: contain;
+    width:100%;
+}
+nav{
+    background-color: #3c3c3c;
+}
+nav button{
+    background-color: transparent;
+}
+
+.nav2{
+    box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.2);
+}

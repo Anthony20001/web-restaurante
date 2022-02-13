@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    --verder : rgb(34, 126, 41);
+    letter-spacing: 1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+/******************************************/
+.hamburger{
+    z-index: 15;
+}
+
+/******************************************/
+header button{
+    display: flex;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+header button h1:hover{
+    color: rgb(255, 255, 255);
+    transition: all .2s ease;
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 7px 0px 0px;
+}
+
+header h1{
+    color: rgb(216, 215, 215);
+}
+
+/******************************************/
+a:hover{
+   cursor: pointer; 
+   color:black;
+}
+
+.item-nav a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    border: solid transparent 1px;
+}
+
+.item-nav a:hover{
+    color: white;
+    border-bottom: solid rgb(180, 180, 180) 1px;
+    transition: all .3s ease;
+}
+
+.item-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.item-nav a{
+    padding: 0px 12px;
+}
+
+/******************************************/
+button:hover{
+    cursor: pointer;
+}
+
+nav button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+nav .btn1{
+    border: solid rgb(255, 255, 255) 1px;
+    color: white;
+    padding: 9px;
+    font-weight:500;
+    font-size:15px;
+}
+
+nav .btn1:hover{
+    color: white;
+    background-color: slateblue;
+    transition: all .3s ease;
+}
+
+nav .btn2{
+    border: solid white 1px;
+    color: white;
+    padding: 9px;
+    font-weight:500;
+    font-size:15px;
+}
+
+nav .btn2:hover{
+    color: white;
+    background-color:darkslategray;
+    transition: all .3s ease;
+}
+
+.toast-close-button {
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 900px){
+    nav{
+        padding: 25px;
+    }
+    .item-nav a{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .item-nav ul{
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 370px){
+    nav .group-btn button{
+        font-size: 13px;
+        padding: 5px 15px;
+    }
+    footer button{
+        font-size: 11px;
+    }
+}
+
